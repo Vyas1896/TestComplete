@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Login_stepdefinitions" key="{33339257-59D1-4494-BE37-AA0CE3E5C400}" path="Login_stepdefinitions.js" />
+		<child name="Text_Translation" key="{701E1E4F-F4DB-4B34-9450-C0CC5A9CBF5E}" path="Text_Translation.js" />
+	</children>
+</Root>

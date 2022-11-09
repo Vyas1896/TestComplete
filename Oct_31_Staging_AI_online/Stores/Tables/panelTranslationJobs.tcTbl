@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="panelTranslationJobs">
+		<Source Object="Aliases.browser.pageStagingAlexatranslationsComT.FindElement(&quot;#translation_jobs&quot;)">
+			<DataExtraction Type="OpticalTableRecognition" DetectionMode="ByCoordinates" SelectionPreference="NearestToCenter" HasHeader="True">
+				<Rectangle Left="340" Top="25" Right="1447" Bottom="110" />
+			</DataExtraction>
+		</Source>
+		<Columns>
+			<Column>TYPE</Column>
+			<Column>FILE NAME</Column>
+			<Column>ADDITIONAL</Column>
+			<Column>OPTIONS</Column>
+			<Column>OUTPUT</Column>
+			<Column>[Unnamed column 5]</Column>
+			<Column>PROGRESS</Column>
+		</Columns>
+		<Rows SpecifedRowsCount="2">
+			<Row>
+				<Cell Type="String">IDML</Cell>
+				<Cell Type="String">idml_sample_EN.idml</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">IDML</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">Not Started</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">DOCX</Cell>
+				<Cell Type="String">docx_sample_EN.docx</Cell>
+				<Cell Type="String">Translate</Cell>
+				<Cell Type="String">Header/Footer</Cell>
+				<Cell Type="String">✔DOCX</Cell>
+				<Cell Type="String">PDF</Cell>
+				<Cell Type="String">Completed</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

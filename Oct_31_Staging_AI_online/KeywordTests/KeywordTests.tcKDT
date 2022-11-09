@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Test1" key="{E89108A8-5E81-4ADE-8F1B-950F2BE40236}" path="Test1.tcKDTest" />
+		<child name="Test2" key="{CAFA32EA-AC41-40A2-983E-AB9C556289BF}" path="Test2.tcKDTest" />
+		<child name="Test3" key="{8EAC4A27-2DA0-4EC1-83B4-99CA1C0201E3}" path="Test3.tcKDTest" />
+		<child name="SSoLogin_TextTranslation_with_checkpoints" key="{450F2692-131E-4AC8-9014-0EAF9473DFC0}" path="SSoLogin_TextTranslation_with_checkpoints.tcKDTest" />
+		<child name="SSOLogin_DocTranslations_withCheckpoints" key="{23A31AD4-A1FB-4714-9D23-D810BBDD39DA}" path="SSOLogin_DocTranslations_withCheckpoints.tcKDTest" />
+		<child name="Test4" key="{1A77FFC7-EA4D-41EB-9BF6-F3350B375FAD}" path="Test4.tcKDTest" />
+		<child name="Testing_all_left_side_button" key="{2A2C6E74-13F7-4B54-8BE0-1312F75E61DA}" path="Testing_all_left_side_button.tcKDTest" />
+		<child name="TMCleaner" key="{D9655003-36CB-4FDB-8754-1168AD530831}" path="TMCleaner.tcKDTest" />
+		<child name="Doctranslation_withoutrecaptcha" key="{CD01B80F-EC2C-4635-A231-8649F26524B4}" path="Doctranslation_withoutrecaptcha.tcKDTest" />
+		<child name="TMCreator" key="{D01FAC54-D40B-473A-9341-8FEB9D7ABCBD}" path="TMCreator.tcKDTest" />
+	</children>
+</Root>

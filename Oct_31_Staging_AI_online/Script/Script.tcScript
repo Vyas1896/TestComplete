@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Unit1" key="{22AC4B33-91A5-4E01-8530-A00539325008}" path="Unit1.js" />
+		<child name="SSOLogin_DocTranslations_withCheckpoint" key="{6E1626BF-ED4D-4B8D-8764-ADB4D7836B8F}" path="SSOLogin_DocTranslations_withCheckpoint.js" />
+		<child name="Testing_all_left_side_button" key="{F6CD54BF-269C-4F28-8EF6-F0E31D3F9B5E}" path="Testing_all_left_side_button.js" />
+		<child name="TMcleaner" key="{291F204F-8411-4FB6-9CB9-D11980E16580}" path="TMcleaner.js" />
+		<child name="DocTranslation_withoutrecaptcha" key="{C8D0C4BE-7D33-474D-B1C3-B621EA34BA18}" path="DocTranslation_withoutrecaptcha.js" />
+	</children>
+</Root>

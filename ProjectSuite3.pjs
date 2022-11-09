@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{4C68F094-551D-4A36-B4D4-CB544BF2D422}">
+	<children>
+		<child name="Oct_31_Staging_AI_online" key="{53C056ED-407A-4AE7-9427-7976996B4D3B}" path="Oct_31_Staging_AI_online\Oct_31_Staging_AI_online.mds" />
+		<child name="Descriptive_programing_Approach" key="{09CCEC8B-E0D0-4CAC-9232-B1C9F2C4774B}" path="Descriptive_programing_Approach\Descriptive_programing_Approach.mds" />
+		<child name="Descriptive_prog_without_cucumber_studio" key="{FA02EF65-1DC4-47B2-8C9B-F37998BBA13F}" path="Descriptive_prog_without_cucumber_studio\Descriptive_prog_without_cucumber_studio.mds" />
+	</children>
+	<testItems key="{6B2BA98F-26C4-4666-94D6-9B1935630533}">
+		<children>
+			<testItem key="{53C056ED-407A-4AE7-9427-7976996B4D3B}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{09CCEC8B-E0D0-4CAC-9232-B1C9F2C4774B}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{FA02EF65-1DC4-47B2-8C9B-F37998BBA13F}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{6970BD8B-C775-4B27-8720-CB1D5B8C8A83}" />
+	<analysis key="{A8FA9ADE-733B-4308-95CA-4CC0D3B60E21}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{878F8CC8-F4EA-445A-9DF2-BD6CC379FF28}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{C7B31CF9-F9DA-49EC-AF47-CA131A04BE61}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{6D01D05A-C1BD-4AE4-8313-18ECF88BB603}">
+								<Image FileName="1695640137" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLogInAlexaTranslationsAI" Key="{82004FBC-24EF-43FE-BCE3-E31F8AD44307}">
+								<Image FileName="1695640137" Left="0" Top="106" Right="1849" Bottom="1007" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://staging.alexatranslations.com/translate/signin/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formFormLogin" Key="{97037133-9E8A-43F6-A0F5-031B3C640CF9}">
+										<Image FileName="1695640137" Left="84" Top="490" Right="636" Bottom="1009" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form_login" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Username or Email&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{C3F199ED-CFCB-49D7-A25C-06E134D50516}">
+										<Image FileName="1695640137" Left="84" Top="657" Right="567" Bottom="713" />
+										<TypeInfo Item0="{082D3A56-E020-41FA-9267-F9150FED4F59}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;enter_password&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsernameOrEmail" Key="{BF60031E-64D2-4D9D-980E-66C61872CFAC}">
+										<Image FileName="-1896840249" Left="84" Top="669" Right="636" Bottom="725" />
+										<TypeInfo Item0="{082D3A56-E020-41FA-9267-F9150FED4F59}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Username or Email&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;enter_username&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogIn" Key="{F0FDBF89-9BA3-4BE4-AC2E-B1549772E801}">
+										<Image FileName="-820945397" Left="84" Top="682" Right="636" Bottom="738" />
+										<TypeInfo Item0="{4592FBE5-F051-4CFE-A954-4BD3BC195E12}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Log In&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;ladda-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;btn_login&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeError" Key="{60AA127F-8936-4A41-98D0-A21F53F179BB}">
+										<Image FileName="1720541389" Left="64" Top="403" Right="337" Bottom="420" />
+										<TypeInfo Item0="{8BBFB56D-0D70-4956-95F8-0BA01C88109B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#error" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[.=&apos;Error verifying reCAPTCHA, please try again.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/span[contains(@class, &apos;text-danger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeError2" Key="{80572802-CB9C-4C6C-9F6E-2D8DC980B45B}">
+										<Image FileName="587110535" Left="64" Top="403" Right="337" Bottom="420" />
+										<TypeInfo Item0="{8BBFB56D-0D70-4956-95F8-0BA01C88109B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#error" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[.=&apos;Error verifying reCAPTCHA, please try again.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/span[contains(@class, &apos;text-danger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageStagingAlexatranslationsCom" Key="{0A375DB6-5E3D-4412-A167-C0133715DD76}">
+								<Image FileName="-1895727358" Left="11" Top="117" Right="1860" Bottom="1018" />
+								<TypeInfo Item0="{E088AC4E-2F96-49E9-893A-722C7413CD35}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://staging.alexatranslations.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formFileUpload" Key="{84E2055F-2167-4DB9-8636-6AEB5BFF7D1B}">
+										<Image FileName="-1895727358" Left="448" Top="466" Right="1724" Bottom="792" />
+										<TypeInfo Item0="{8BBFB56D-0D70-4956-95F8-0BA01C88109B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#file_upload" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Drop Files Here or Click to Browse&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;create_job&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div/div/div/div/form[contains(@class, &apos;dz-clickable&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDropFilesHereOrClickTo" Key="{A55C543A-5049-4D00-89DF-9F9E68907E5A}">
+										<Image FileName="-1895727358" Left="481" Top="499" Right="1691" Bottom="705" />
+										<TypeInfo Item0="{8BBFB56D-0D70-4956-95F8-0BA01C88109B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form//div[contains(@class, &apos;fileupload-buttonbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEn" Key="{E5953DAB-1CEE-429B-89F3-4E6162F2E215}">
+										<Image FileName="-1749351818" Left="1358" Top="106" Right="1810" Bottom="211" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;en&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;float-right&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTest" Key="{24DB5E02-3F8D-4764-82BF-9699F2324B05}">
+										<Image FileName="-1749351818" Left="1582" Top="106" Right="1734" Bottom="211" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Test&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTest" Key="{C70DEFBD-7228-4171-B0E2-6DCD8BB4D7D1}">
+										<Image FileName="-1749351818" Left="1582" Top="106" Right="1734" Bottom="211" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Test&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTest2" Key="{86240641-1433-4575-B0FC-2D6C8DD9B24A}">
+										<Image FileName="-1749351818" Left="1650" Top="148" Right="1715" Bottom="174" />
+										<TypeInfo Item0="{3A28576E-1B84-4ABF-8B9B-DF69BA48E542}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Test&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;pro-user-name&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogout" Key="{3B5EE9A8-435D-4D9F-A5A2-A2FF1A96B3DA}">
+										<Image FileName="647226578" Left="1459" Top="351" Right="1724" Bottom="404" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Logout&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogout" Key="{BEDEF7F9-ECF2-4269-9266-F228A7EB306E}">
+										<Image FileName="647226578" Left="1523" Top="364" Right="1588" Bottom="390" />
+										<TypeInfo Item0="{3A28576E-1B84-4ABF-8B9B-DF69BA48E542}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Logout&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;logout&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[3]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDocuments" Key="{C3BED9C9-B155-49D5-B715-CCA10E07EAF4}">
+										<Image FileName="1314376611" Left="288" Top="237" Right="1819" Bottom="275" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Documents&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeText" Key="{16AA0A2A-4CF7-401F-B817-5E752DFE50D1}">
+										<Image FileName="1314376611" Left="414" Top="237" Right="500" Bottom="274" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Text&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkText" Key="{6139B671-5F01-41EA-8851-E7DA00A33640}">
+										<Image FileName="1314376611" Left="419" Top="237" Right="495" Bottom="274" />
+										<TypeInfo Item0="{3A28576E-1B84-4ABF-8B9B-DF69BA48E542}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//ul/li[2]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaSourceSentence" Key="{E862BD47-BCE6-4C61-A508-C581863C418B}">
+										<Image FileName="-1708867889" Left="300" Top="356" Right="1010" Bottom="580" />
+										<TypeInfo Item0="{DCDF526B-CFCC-425C-A866-C3B751451300}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#source_sentence" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//textarea[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;div_source&apos;]//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelEnglish" Key="{13F8FBDC-17D4-44F1-AD6D-960DE95F0ED8}">
+										<Image FileName="-1708867889" Left="299" Top="286" Right="1830" Bottom="632" />
+										<TypeInfo Item0="{8BBFB56D-0D70-4956-95F8-0BA01C88109B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;tab-content&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTargetSentence" Key="{81C777C0-7EC6-4AEB-A201-3EF4CE7FC0F2}">
+										<Image FileName="905065233" Left="1066" Top="356" Right="1776" Bottom="391" />
+										<TypeInfo Item0="{8BBFB56D-0D70-4956-95F8-0BA01C88109B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#target_sentence" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[.=&apos;Bonjour&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;div_target&apos;]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDocuments" Key="{9E1E677C-696D-44DE-B3B2-06201719E3D6}">
+										<Image FileName="-47885309" Left="275" Top="224" Right="1854" Bottom="656" />
+										<TypeInfo Item0="{8BBFB56D-0D70-4956-95F8-0BA01C88109B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[50]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDocuments2" Key="{9AD87E57-0A57-492E-9DDB-E7B8645E3725}">
+										<Image FileName="836551383" Left="299" Top="248" Right="425" Bottom="285" />
+										<TypeInfo Item0="{8BBFB56D-0D70-4956-95F8-0BA01C88109B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Documents&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkDocuments" Key="{4F57D807-6CA3-41BE-A76D-F1CD0BBD464C}">
+										<Image FileName="836551383" Left="299" Top="248" Right="420" Bottom="285" />
+										<TypeInfo Item0="{D2AEFEAD-6B9E-4931-A388-A604BB28AABF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Documents&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//ul/li/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkText2" Key="{C49AAD9C-F767-4991-AE9A-DB64175AC2D3}">
+										<Image FileName="141064363" Left="430" Top="248" Right="506" Bottom="285" />
+										<TypeInfo Item0="{D2AEFEAD-6B9E-4931-A388-A604BB28AABF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//ul/li[2]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDropFilesHereOrClickTo2" Key="{F73AB7EB-7AD4-4E47-ABEF-D6B5EF16B370}">
+										<Image FileName="-1682982540" Left="433" Top="461" Right="1705" Bottom="646" />
+										<TypeInfo Item0="{8BBFB56D-0D70-4956-95F8-0BA01C88109B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form//div[contains(@class, &apos;fileupload-buttonbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDropFilesHereOrClickTo3" Key="{2EAC511D-D005-4643-BDDB-FE2BBDFC14C2}">
+										<Image FileName="1740708449" Left="433" Top="461" Right="1705" Bottom="646" />
+										<TypeInfo Item0="{8BBFB56D-0D70-4956-95F8-0BA01C88109B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form//div[contains(@class, &apos;fileupload-buttonbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageStagingAlexatranslationsComT" Key="{05E0EA97-F4F5-4DD9-89A5-ADB8B94A2A6A}">
+								<Image FileName="-1164498578" Left="0" Top="106" Right="1849" Bottom="1007" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://staging.alexatranslations.com/translate/logout/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{FCD4FC19-7472-4894-B045-860D059D2EDE}">
+										<Image FileName="-1164498578" Left="0" Top="106" Right="1850" Bottom="1008" />
+										<TypeInfo Item0="{3A28576E-1B84-4ABF-8B9B-DF69BA48E542}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//html" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ONENOTE" Key="{E809C223-1BE2-4234-902F-A658D3BB9A72}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ONENOTE" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndFrameworkCFrame" Key="{FF6DB257-5CCC-4AC6-A61C-6FBAF2212492}">
+								<Image FileName="-171548542" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Framework::CFrame" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{0D1446AB-33F8-4D56-B97B-B7FE9C408111}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{93286F6F-FBAD-4892-A006-17A779FA3A2A}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{9301D688-EA9B-47D5-81E4-72032EA5A641}">
+										<TypeInfo Item0="{4645B2F1-513A-4A85-BA5D-8B55E4DBE179}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ApplicationFrameHost" Key="{40320626-8CBE-4F2A-892F-385750D76AC2}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ApplicationFrameHost" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndSettings" Key="{E835DA8B-D834-4816-8BE0-0935CF3BE750}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="ApplicationFrameWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Settings" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{C7B31CF9-F9DA-49EC-AF47-CA131A04BE61}">
+			<Child Name="BrowserWindow" Owner="{6D01D05A-C1BD-4AE4-8313-18ECF88BB603}" />
+			<Child Name="pageLogInAlexaTranslationsAI" Owner="{82004FBC-24EF-43FE-BCE3-E31F8AD44307}">
+				<Child Name="formFormLogin" Owner="{97037133-9E8A-43F6-A0F5-031B3C640CF9}">
+					<Child Name="passwordboxPassword" Owner="{C3F199ED-CFCB-49D7-A25C-06E134D50516}" />
+					<Child Name="textboxUsernameOrEmail" Owner="{BF60031E-64D2-4D9D-980E-66C61872CFAC}" />
+					<Child Name="buttonLogIn" Owner="{F0FDBF89-9BA3-4BE4-AC2E-B1549772E801}" />
+				</Child>
+				<Child Name="textnodeError" Owner="{60AA127F-8936-4A41-98D0-A21F53F179BB}" />
+				<Child Name="textnodeError2" Owner="{80572802-CB9C-4C6C-9F6E-2D8DC980B45B}" />
+			</Child>
+			<Child Name="pageStagingAlexatranslationsCom" Owner="{0A375DB6-5E3D-4412-A167-C0133715DD76}">
+				<Child Name="formFileUpload" Owner="{84E2055F-2167-4DB9-8636-6AEB5BFF7D1B}">
+					<Child Name="panelDropFilesHereOrClickTo" Owner="{A55C543A-5049-4D00-89DF-9F9E68907E5A}" />
+					<Child Name="panelDropFilesHereOrClickTo2" Owner="{F73AB7EB-7AD4-4E47-ABEF-D6B5EF16B370}" />
+					<Child Name="panelDropFilesHereOrClickTo3" Owner="{2EAC511D-D005-4643-BDDB-FE2BBDFC14C2}" />
+				</Child>
+				<Child Name="textnodeEn" Owner="{E5953DAB-1CEE-429B-89F3-4E6162F2E215}">
+					<Child Name="textnodeTest" Owner="{24DB5E02-3F8D-4764-82BF-9699F2324B05}">
+						<Child Name="linkTest" Owner="{C70DEFBD-7228-4171-B0E2-6DCD8BB4D7D1}">
+							<Child Name="textnodeTest2" Owner="{86240641-1433-4575-B0FC-2D6C8DD9B24A}" />
+						</Child>
+						<Child Name="linkLogout" Owner="{3B5EE9A8-435D-4D9F-A5A2-A2FF1A96B3DA}">
+							<Child Name="textnodeLogout" Owner="{BEDEF7F9-ECF2-4269-9266-F228A7EB306E}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="textnodeDocuments" Owner="{C3BED9C9-B155-49D5-B715-CCA10E07EAF4}">
+					<Child Name="textnodeText" Owner="{16AA0A2A-4CF7-401F-B817-5E752DFE50D1}">
+						<Child Name="linkText" Owner="{6139B671-5F01-41EA-8851-E7DA00A33640}" />
+						<Child Name="linkText2" Owner="{C49AAD9C-F767-4991-AE9A-DB64175AC2D3}" />
+					</Child>
+					<Child Name="textnodeDocuments2" Owner="{9AD87E57-0A57-492E-9DDB-E7B8645E3725}">
+						<Child Name="linkDocuments" Owner="{4F57D807-6CA3-41BE-A76D-F1CD0BBD464C}" />
+					</Child>
+				</Child>
+				<Child Name="textareaSourceSentence" Owner="{E862BD47-BCE6-4C61-A508-C581863C418B}" />
+				<Child Name="panelEnglish" Owner="{13F8FBDC-17D4-44F1-AD6D-960DE95F0ED8}" />
+				<Child Name="textnodeTargetSentence" Owner="{81C777C0-7EC6-4AEB-A201-3EF4CE7FC0F2}" />
+				<Child Name="panelDocuments" Owner="{9E1E677C-696D-44DE-B3B2-06201719E3D6}" />
+			</Child>
+			<Child Name="pageStagingAlexatranslationsComT" Owner="{05E0EA97-F4F5-4DD9-89A5-ADB8B94A2A6A}">
+				<Child Name="textnode" Owner="{FCD4FC19-7472-4894-B045-860D059D2EDE}" />
+			</Child>
+		</Child>
+		<Child Name="ONENOTE" Owner="{E809C223-1BE2-4234-902F-A658D3BB9A72}">
+			<Child Name="wndFrameworkCFrame" Owner="{FF6DB257-5CCC-4AC6-A61C-6FBAF2212492}" />
+		</Child>
+		<Child Name="explorer" Owner="{0D1446AB-33F8-4D56-B97B-B7FE9C408111}">
+			<Child Name="wndShell_TrayWnd" Owner="{93286F6F-FBAD-4892-A006-17A779FA3A2A}">
+				<Child Name="DesktopWindowXamlSource" Owner="{9301D688-EA9B-47D5-81E4-72032EA5A641}" />
+			</Child>
+		</Child>
+		<Child Name="ApplicationFrameHost" Owner="{40320626-8CBE-4F2A-892F-385750D76AC2}">
+			<Child Name="wndSettings" Owner="{E835DA8B-D834-4816-8BE0-0935CF3BE750}" />
+		</Child>
+	</LogicalNodes>
+</Root>
